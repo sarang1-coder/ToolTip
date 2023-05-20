@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  margin: 5%;
+  background-color: #e48aa2;
+  font-family: 'Playfair Display', serif !important;
+ 
+}
+
+span{
+  text-transform: uppercase;
+}
+.btn-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  height: 10%;
+}
+
+.btn {
+  height: 60%;
+  margin-top: 1.1%;
+  width: 8%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#btn-container {
+  width: 23%;
+  height: 15%;
+  margin-left: 39.5%;
+  margin-top: 23%;
+}
+
+.hover-btn {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.top {
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.right {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: 105%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.bottom {
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+
+.left {
+  height: 30%;
+  width: 50%;
+  margin-top: -22%;
+  margin-left: -60%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(104, 23, 227, 0.1);
+}
+.active {
+  background-color: rgba(104, 23, 227, 0.3);
+}
